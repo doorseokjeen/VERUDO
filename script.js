@@ -1,6 +1,6 @@
 // set up global javascript variables
 
-var bgUrl = 'https://images.unsplash.com/photo-1531182106362-3871c401774a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+var bgUrl = 'https://images.unsplash.com/photo-1447433819943-74a20887a81e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2150&q=80'
 
 var blackholeMass = 1500;
 var curblackholeMass = 0;
