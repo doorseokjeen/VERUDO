@@ -2,7 +2,7 @@
 
 var bgUrl = 'https://images.unsplash.com/photo-1447433819943-74a20887a81e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2150&q=80'
 
-var blackholeMass = 1500;
+var blackholeMass = 2000;
 var curblackholeMass = 0;
 
 var canvas, gl; // canvas and webgl context
@@ -164,7 +164,7 @@ function render() {
 	}
 
 	if(clicked){
-		clickedTime += 0.03;
+		clickedTime += 0.04;
 	} else if(clickedTime > 0 && clicked == false) {
 		clickedTime += -(clickedTime*0.015);
 	}
