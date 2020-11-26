@@ -190,7 +190,7 @@ function render() {
 window.addEventListener('load', function(event){
 	var image = new Image();
   	image.crossOrigin = "Anonymous";
-	image.src = bgUrl;
+	image.src = 'https://doorseokjeen.github.io/VERUDO/IMG_8014.JPG'
 	image.onload = function() {
 		init(image);
 	}
