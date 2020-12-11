@@ -190,7 +190,7 @@ function render() {
 window.addEventListener('load', function(event){
 	var image = new Image();
   	image.crossOrigin = "Anonymous";
-	image.src = bgUrl;
+	image.src = 'https://raw.githubusercontent.com/doorseokjeen/verudo/main/%E1%84%8B%E1%85%B0%E1%86%B8%20%E1%84%87%E1%85%A2%E1%84%80%E1%85%A7%E1%86%BC%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png';
 	image.onload = function() {
 		init(image);
 	}
